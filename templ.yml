@@ -1,0 +1,8 @@
+---
+- name: using templates
+  hosts: all
+  tasks:
+    - name: Copy template
+      template:
+        src: template.j2
+        dest: /home/ansible/index.html
