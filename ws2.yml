@@ -1,0 +1,6 @@
+---
+- name: Webserver 1 config
+  hosts: all
+  roles: 
+    - http_serv
+
